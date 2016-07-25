@@ -1,1 +1,17 @@
-<h1>HELLO WORLD!</h1>
+<form method="post">
+	Enter Units to Convert <input type="text" name="units">
+	<select name="option">
+		<option value="kmToMiles">Kilometers to Miles</option>
+		<option value="milesToKm">Miles to Kilometers</option>
+		<option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+		<option value="fahrenheitToCelsius">Fahrenheit to Celsius</option>
+		<option value="stonesToPounds">Stones to Pounds</option>
+		<option value="poundsToStones">Pounds to Stones</option>
+		<option value="poundsToKg">Pounds to Kilograms</option>
+		<option value="kgToPounds">Kilograms to Pounds</option>
+		<option value="stonesToKg">Stones to Kilograms</option>
+		<option value="kgToStones">Kilograms to Stones</option>
+	</select>
+	<br>
+	<button formaction="milesToKm" class="button">Test</button>
+</form>
