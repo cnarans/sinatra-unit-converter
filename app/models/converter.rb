@@ -41,5 +41,4 @@ class Converter
 	end
 end
 
-test = Converter.new
-puts test.milesToKm(1)
+#test = Converter.new
